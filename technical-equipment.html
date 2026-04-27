@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plateau technique — Ophtao</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Site stylesheets -->
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/editorial.css" />
+
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="top-bar">
+    <strong>Cabinet conventionné secteur 1</strong>
+     —  Assurance maladie obligatoire acceptée  —  Tiers payant pratiqué
+  </div>
+
+  <!-- Primary header & navigation -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Ophtao – Accueil">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 16C3 16 8.5 7 16 7C23.5 7 29 16 29 16C29 16 23.5 25 16 25C8.5 25 3 16 3 16Z" stroke="white" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+            <circle cx="16" cy="16" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+            <circle cx="17.5" cy="14.5" r="1.2" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="brand">Ophtao</div>
+          <div class="tagline">Dr Mégret & Associés</div>
+        </div>
+      </a>
+
+      <nav id="main-nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html">Page d'accueil</a>
+        <a href="index.html#infos-pratiques">Le cabinet</a>
+        <a href="medical_team.html">L'équipe médicale</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-more active" onclick="return false;">Plus <span class="chevron"></span></a>
+          <div class="dropdown-menu">
+            <a href="technical-equipment.html">Plateau technique</a>
+            <a href="consultation.html">Consultation Ophtalmologique</a>
+            <a href="pathologies.html">Pathologies Oculaires Générales</a>
+            <a href="corrections.html">Correction des défauts visuels</a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page hero -->
+    <section class="page-hero" aria-label="Introduction">
+      <div class="page-hero-inner">
+        <span class="page-hero-label">Équipements & Technologie</span>
+        <h1><em>Notre Plateau Technique</em></h1>
+        <div class="page-hero-rule" aria-hidden="true"></div>
+        <p>
+          Le cabinet Ophtao s'équipe des technologies d'imagerie et de mesure les plus avancées
+          pour garantir des diagnostics précis et un suivi rigoureux. Chaque examen est réalisé
+          dans le confort du patient, sans injection ni contact invasif.
+        </p>
+      </div>
+    </section>
+
+    <!-- Editorial content: equipment -->
+    <section class="editorial-section" aria-label="Équipements">
+
+      <!-- 01 — Angio-OCT -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>01 — Angio OCT</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Imagerie rétinienne</span>
+          <h2>Angio-OCT<br><em>Angiographie sans injection</em></h2>
+          <p>
+            L'Angiographie par Cohérence Optique (Angio-OCT) produit en quelques secondes une
+            cartographie tridimensionnelle haute résolution de la microvascularisation rétinienne
+            et choroïdienne. Contrairement à l'angiographie conventionnelle, aucun colorant
+            n'est injecté : l'examen est entièrement non invasif, indolore et sans risque allergique.
+          </p>
+          <p>
+            Cette technologie permet de visualiser la trame capillaire avec une précision
+            microscopique, révélant des néovaisseaux ou des ischémies impossibles à détecter
+            autrement, au bénéfice d'une prise en charge thérapeutique précoce.
+          </p>
+          <ul class="editorial-list">
+            <li>Diagnostic et suivi de la <strong>DMLA néovasculaire</strong></li>
+            <li>Surveillance de la <strong>rétinopathie diabétique</strong></li>
+            <li>Bilan des <strong>occlusions vasculaires</strong> rétiniennes</li>
+            <li>Évaluation du nerf optique dans le <strong>glaucome</strong></li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/octa.png" alt="Cartographie vasculaire rétinienne par Angio-OCT" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 02 — Optical biometer -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>02 — Biomètre</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/biometre.png" alt="Mesure préopératoire par biomètre optique" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Mesure préopératoire</span>
+          <h2>Biomètre Optique<br><em>Précision au micron près</em></h2>
+          <p>
+            Le biomètre optique mesure sans contact l'ensemble des paramètres anatomiques
+            nécessaires au calcul d'implant intraoculaire : longueur axiale, courbures
+            cornéennes, profondeur de chambre antérieure et épaisseur du cristallin.
+            L'examen dure moins de trente secondes et ne requiert aucune préparation.
+          </p>
+          <p>
+            Les données obtenues alimentent les formules de calcul de dernière génération
+            (Barrett Universal II, Kane) afin de sélectionner avec une fiabilité maximale
+            le bon implant pour chaque patient — y compris les implants multifocaux et toriques
+            destinés à affranchir des lunettes après la chirurgie.
+          </p>
+          <ul class="editorial-list">
+            <li>Mesure <strong>sans contact</strong> — aucune anesthésie requise</li>
+            <li>Calcul d'implant pour chirurgie de la <strong>cataracte</strong></li>
+            <li>Compatible implants <strong>multifocaux et toriques</strong></li>
+            <li>Résultat obtenu en <strong>moins de 30 secondes</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 03 — Corneal topographer -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>03 — Topographe</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Cartographie cornéenne</span>
+          <h2>Topographe Cornéen<br><em>La carte précise de votre cornée</em></h2>
+          <p>
+            La topographie cornéenne analyse la courbure et la régularité de la surface
+            de l'œil par projection de mires lumineuses. Elle génère une carte colorimétrique
+            détaillée permettant de détecter, à un stade précoce, toute irrégularité
+            pouvant affecter la qualité visuelle.
+          </p>
+          <p>
+            Cet examen est systématique avant toute adaptation de lentilles rigides,
+            avant un bilan de chirurgie réfractive, et dans le suivi du kératocône —
+            affection évolutive qui déforme progressivement la cornée et peut engager
+            le pronostic visuel si elle n'est pas prise en charge à temps.
+          </p>
+          <ul class="editorial-list">
+            <li>Dépistage et suivi du <strong>kératocône</strong></li>
+            <li>Bilan préopératoire <strong>LASIK / PKR / SMILE</strong></li>
+            <li>Adaptation de <strong>lentilles rigides et sclérales</strong></li>
+            <li>Astigmatisme irrégulier <strong>post-traumatique ou post-chirurgical</strong></li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/toopographie.png" alt="Carte de courbure par topographe cornéen" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CTA block -->
+    <section class="page-cta" aria-label="Prendre rendez-vous">
+      <div class="page-cta-inner">
+        <h2>Besoin d'un examen spécialisé ?</h2>
+        <p>Notre équipe vous accueille du lundi au vendredi. Contactez-nous par téléphone ou prenez rendez-vous en ligne.</p>
+        <div class="page-cta-buttons">
+          <a href="tel:0139139191" class="btn-cta-phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 12a19.79 19.79 0 01-3.07-8.67A2 2 0 012.88 2h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            Appeler le 01.39.13.91.91
+          </a>
+          <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?telehealth=false&specialityId=4&placeId=practice-7892&pid=practice-7892&speciality_ids%5B%5D=4&source=deep_link" class="btn-cta-rdv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            Prendre rendez-vous
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 <span>Ophtao — Dr Mégret & Associés</span>  •  60 rue Hoche, 78800 Houilles  •  Cabinet conventionné secteur 1</p>
+    <p style="margin-top:6px">Mentions légales  •  Politique de confidentialité  •  Site réalisé par le cabinet</p>
+  </footer>
+
+
+  <!-- Global UI interactions -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>

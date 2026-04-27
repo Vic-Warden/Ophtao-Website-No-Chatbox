@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Correction des défauts visuels — Ophtao</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Site stylesheets -->
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/editorial.css" />
+
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="top-bar">
+    <strong>Cabinet conventionné secteur 1</strong>
+     —  Assurance maladie obligatoire acceptée  —  Tiers payant pratiqué
+  </div>
+
+  <!-- Primary header & navigation -->
+  <header>
+    <div class="header-inner">
+
+      <a href="index.html" class="logo" aria-label="Ophtao – Accueil">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 16C3 16 8.5 7 16 7C23.5 7 29 16 29 16C29 16 23.5 25 16 25C8.5 25 3 16 3 16Z" stroke="white" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+            <circle cx="16" cy="16" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+            <circle cx="17.5" cy="14.5" r="1.2" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="brand">Ophtao</div>
+          <div class="tagline">Dr Mégret & Associés</div>
+        </div>
+      </a>
+
+      <nav id="main-nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html">Page d'accueil</a>
+        <a href="index.html#infos-pratiques">Le cabinet</a>
+        <a href="medical_team.html">L'équipe médicale</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-more active" onclick="return false;">Plus <span class="chevron"></span></a>
+          <div class="dropdown-menu">
+            <a href="technical-equipment.html">Plateau technique</a>
+            <a href="consultation.html">Consultation Ophtalmologique</a>
+            <a href="pathologies.html">Pathologies Oculaires Générales</a>
+            <a href="corrections.html">Correction des défauts visuels</a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page hero -->
+    <section class="page-hero" aria-label="Introduction">
+      <div class="page-hero-inner">
+        <span class="page-hero-label">Optique & Réfraction</span>
+        <h1><em>Correction des<br>Défauts Visuels</em></h1>
+        <div class="page-hero-rule" aria-hidden="true"></div>
+        <p>
+          Myopie, hypermétropie, presbytie — ces défauts de réfraction touchent la quasi-totalité
+          de la population à un moment ou un autre de la vie. Comprendre leur mécanisme,
+          c'est mieux choisir la correction qui vous convient : lunettes, lentilles ou chirurgie.
+        </p>
+      </div>
+    </section>
+
+    <!-- Editorial content: refractive defects -->
+    <section class="editorial-section" aria-label="Défauts visuels et corrections">
+
+      <!-- 01 — Myopia -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>01 — Myopie</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Défaut réfractif</span>
+          <h2>Myopie<br><em>Voir flou de loin</em></h2>
+          <p>
+            <strong>Mécanisme :</strong> La myopie résulte d'un œil trop long ou d'une cornée
+            trop courbée. Les rayons lumineux convergent en avant de la rétine au lieu de
+            la toucher exactement, produisant une image floue pour les objets éloignés.
+            La vision de près reste en revanche parfaitement nette.
+          </p>
+          <p>
+            <strong>Évolution :</strong> La myopie débute généralement entre 8 et 15 ans
+            et peut progresser jusqu'à 25 ans. Une myopie forte (supérieure à −6 dioptries)
+            expose à un risque accru de décollement de rétine, de glaucome et de cataracte
+            précoce — justifiant un suivi ophtalmologique régulier.
+          </p>
+          <ul class="editorial-list">
+            <li><strong>Lunettes à verres divergents</strong> (sphère négative)</li>
+            <li><strong>Lentilles de contact</strong> souples journalières ou mensuelles</li>
+            <li><strong>Orthokératologie</strong> (lentilles rigides nocturnes) pour freiner la progression</li>
+            <li><strong>Chirurgie réfractive</strong> (LASIK, PKR, implant phaque) dès stabilisation</li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/myopie.png" alt="Illustration de la myopie" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 02 — Hyperopia -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>02 — Hypermétropie</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/hypermetropie.png" alt="Illustration de l'hypermétropie" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Défaut réfractif</span>
+          <h2>Hypermétropie<br><em>Effort constant pour voir net</em></h2>
+          <p>
+            <strong>Mécanisme :</strong> L'hypermétrope possède un globe oculaire trop court
+            ou une cornée trop plate. Les rayons lumineux convergent théoriquement en arrière
+            de la rétine. Pour compenser, le cristallin s'accommode en permanence — ce qui
+            génère une fatigue visuelle importante, surtout en vision rapprochée.
+          </p>
+          <p>
+            <strong>Spécificités :</strong> Contrairement à la myopie, l'hypermétropie modérée
+            peut être parfaitement compensée par l'accommodation chez le sujet jeune,
+            passant ainsi inaperçue. Elle devient symptomatique avec l'âge ou en cas de
+            fatigue, et peut favoriser un strabisme chez l'enfant non corrigé.
+          </p>
+          <ul class="editorial-list">
+            <li><strong>Lunettes à verres convergents</strong> (sphère positive)</li>
+            <li><strong>Lentilles de contact</strong> souples ou rigides</li>
+            <li>Port précoce chez l'enfant pour prévenir <strong>l'amblyopie</strong></li>
+            <li><strong>LASIK / LASEK</strong> pour les hypermétropies stabilisées modérées</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 03 — Presbyopia -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>03 — Presbytie</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Vieillissement physiologique</span>
+          <h2>Presbytie<br><em>L'inévitable et ses solutions</em></h2>
+          <p>
+            <strong>Mécanisme :</strong> La presbytie n'est pas un défaut de réfraction
+            au sens strict, mais une perte progressive de l'élasticité du cristallin liée
+            à l'âge. Le cristallin rigidifié ne peut plus se bomber suffisamment pour
+            faire la mise au point de près — on parle de perte d'accommodation.
+            Elle survient invariablement autour de 45 ans chez tous les individus.
+          </p>
+          <p>
+            <strong>Spécificité chez le myope :</strong> Le myope non corrigé voit
+            naturellement de près en retirant ses lunettes. La presbytie le touche donc
+            différemment, parfois plus tardivement perçue. Chez l'hypermétrope,
+            elle s'ajoute à la fatigue visuelle préexistante.
+          </p>
+          <ul class="editorial-list">
+            <li><strong>Verres progressifs</strong> : correction unifiée de loin, intermédiaire et de près</li>
+            <li><strong>Verres à double foyer</strong> ou dégradés selon les usages</li>
+            <li><strong>Lentilles multifocales</strong> ou monovision (un œil de loin, l'autre de près)</li>
+            <li><strong>Implants multifocaux</strong> lors de la chirurgie de la cataracte</li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/presbytie.png" alt="Illustration de la presbytie" style="width: 100%; height: 100%; object-fit: contain; border-radius: 8px;">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CTA block -->
+    <section class="page-cta" aria-label="Prendre rendez-vous">
+      <div class="page-cta-inner">
+        <h2>Votre vision mérite le meilleur</h2>
+        <p>
+          Un bilan réfractif complet permet de choisir la correction la plus adaptée
+          à votre mode de vie. Prenez rendez-vous pour un examen personnalisé.
+        </p>
+        <div class="page-cta-buttons">
+          <a href="tel:0139139191" class="btn-cta-phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 12a19.79 19.79 0 01-3.07-8.67A2 2 0 012.88 2h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Appeler le 01.39.13.91.91
+          </a>
+          <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?telehealth=false&specialityId=4&placeId=practice-7892&pid=practice-7892&speciality_ids%5B%5D=4&source=deep_link" class="btn-cta-rdv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Prendre rendez-vous
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 <span>Ophtao — Dr Mégret & Associés</span>  •  60 rue Hoche, 78800 Houilles  •  Cabinet conventionné secteur 1</p>
+    <p style="margin-top:6px">Mentions légales  •  Politique de confidentialité  •  Site réalisé par le cabinet</p>
+  </footer>
+
+
+  <!-- Global UI interactions -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>

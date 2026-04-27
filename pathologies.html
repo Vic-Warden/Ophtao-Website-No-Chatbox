@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pathologies Oculaires — Ophtao</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Site stylesheets -->
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/editorial.css" />
+
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="top-bar">
+    <strong>Cabinet conventionné secteur 1</strong>
+     —  Assurance maladie obligatoire acceptée  —  Tiers payant pratiqué
+  </div>
+
+  <!-- Primary header & navigation -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Ophtao – Accueil">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 16C3 16 8.5 7 16 7C23.5 7 29 16 29 16C29 16 23.5 25 16 25C8.5 25 3 16 3 16Z" stroke="white" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+            <circle cx="16" cy="16" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+            <circle cx="17.5" cy="14.5" r="1.2" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="brand">Ophtao</div>
+          <div class="tagline">Dr Mégret & Associés</div>
+        </div>
+      </a>
+
+      <nav id="main-nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html">Page d'accueil</a>
+        <a href="index.html#infos-pratiques">Le cabinet</a>
+        <a href="medical_team.html">L'équipe médicale</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-more active" onclick="return false;">Plus <span class="chevron"></span></a>
+          <div class="dropdown-menu">
+            <a href="technical-equipment.html">Plateau technique</a>
+            <a href="consultation.html">Consultation Ophtalmologique</a>
+            <a href="pathologies.html">Pathologies Oculaires Générales</a>
+            <a href="corrections.html">Correction des défauts visuels</a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page hero -->
+    <section class="page-hero" aria-label="Introduction">
+      <div class="page-hero-inner">
+        <span class="page-hero-label">Maladies oculaires</span>
+        <h1><em>Pathologies Oculaires</em></h1>
+        <div class="page-hero-rule" aria-hidden="true"></div>
+        <p>
+          Beaucoup de maladies oculaires évoluent sans douleur ni symptôme perceptible
+          jusqu'à un stade avancé. La connaissance de ces pathologies et un suivi régulier
+          sont les meilleures armes pour préserver votre capital visuel.
+        </p>
+      </div>
+    </section>
+
+    <!-- Editorial content: pathologies -->
+    <section class="editorial-section" aria-label="Pathologies détaillées">
+
+      <!-- 01 — Glaucoma -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>01 — Glaucome</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Neuropathie optique</span>
+          <h2>Glaucome<br><em>Le voleur silencieux de la vue</em></h2>
+          <p>
+            Le glaucome regroupe un ensemble de neuropathies optiques caractérisées par
+            une destruction progressive des fibres du nerf optique, le plus souvent liée
+            à une élévation de la pression intraoculaire. La perte du champ visuel débute
+            en périphérie et reste invisible jusqu'à un stade très avancé.
+          </p>
+          <p>
+            Sans traitement, le glaucome évolue inexorablement vers la cécité. Or un
+            diagnostic précoce permet dans la quasi-totalité des cas de stabiliser la maladie
+            grâce à un traitement local (collyres) ou chirurgical (trabéculectomie, implants).
+          </p>
+          <ul class="editorial-list">
+            <li>Facteurs de risque : <strong>pression oculaire élevée</strong>, âge, antécédents familiaux</li>
+            <li>Dépistage par <strong>tonométrie, champ visuel et OCT</strong> du nerf optique</li>
+            <li>Traitement : <strong>collyres hypotonisants</strong> en première intention</li>
+            <li>Surveillance à vie — pathologie <strong>non guérissable mais contrôlable</strong></li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/glaucome.png" alt="Illustration de la perte du champ visuel liée au glaucome" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 02 — Cataract -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>02 — Cataracte</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/cataracte.jpg" alt="Opacification du cristallin (Cataracte)" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Chirurgie programmée</span>
+          <h2>Cataracte<br><em>Retrouver la transparence</em></h2>
+          <p>
+            La cataracte est l'opacification progressive du cristallin — le cristal naturel
+            de l'œil. Elle entraîne une baisse de la vision, une sensibilité accrue à
+            l'éblouissement et un voile laiteux altérant les contrastes. Elle touche principalement
+            les personnes de plus de 60 ans, mais peut survenir à tout âge.
+          </p>
+          <p>
+            Le traitement est exclusivement chirurgical : la phacoémulsification remplace
+            le cristallin opacifié par un implant artificiel (LIO) en une intervention
+            ambulatoire de 15 minutes, sous anesthésie locale. Les résultats visuels
+            sont généralement excellents dès le lendemain de l'opération.
+          </p>
+          <ul class="editorial-list">
+            <li>Première cause de <strong>chirurgie réglée</strong> en France</li>
+            <li>Intervention <strong>ambulatoire</strong>, sans hospitalisation</li>
+            <li>Choix d'implant adapté à votre mode de vie (<strong>multifocal, torique</strong>)</li>
+            <li>Récupération visuelle en <strong>24–48 heures</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 03 — AMD -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>03 — DMLA</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Rétine centrale</span>
+          <h2>Dégénérescence Maculaire<br><em>Liée à l'Âge (DMLA)</em></h2>
+          <p>
+            La DMLA est une atteinte dégénérative de la macula — zone centrale de la rétine
+            qui permet la vision fine, la lecture et la reconnaissance des visages. Elle est
+            la première cause de malvoyance après 50 ans en France, touchant environ
+            1,5 million de personnes.
+          </p>
+          <p>
+            La forme sèche (atrophique) évolue lentement. La forme humide (néovasculaire),
+            plus agressive, est caractérisée par la croissance de néovaisseaux sous-rétiniens
+            qui peuvent provoquer une perte visuelle centrale rapide si non traitée.
+            Les injections intravitréennes d'anti-VEGF, très efficaces, doivent être
+            initiées rapidement.
+          </p>
+          <ul class="editorial-list">
+            <li>Symptômes : <strong>vision déformée</strong> (métamorphopsies), scotome central</li>
+            <li>Test d'Amsler à réaliser <strong>régulièrement</strong> chez les patients à risque</li>
+            <li>Traitement de la forme humide : <strong>injections anti-VEGF</strong></li>
+            <li>Supplémentation en <strong>antioxydants AREDS2</strong> pour la forme sèche</li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/dmla.jpg" alt="Déformation de la vision centrale (Grille d'Amsler) causée par la DMLA" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 04 — Hereditary retinal dystrophies -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>04 — Dystrophies</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/dystrophie.png" alt="Représentation d'un électrorétinogramme pour les dystrophies" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Maladies génétiques rares</span>
+          <h2>Dystrophies Héréditaires<br><em>de la Rétine</em></h2>
+          <p>
+            Les dystrophies héréditaires de la rétine (DHR) regroupent plus de 270 maladies
+            génétiques rares affectant les photorécepteurs ou l'épithélium pigmentaire rétinien.
+            Les plus fréquentes sont la rétinite pigmentaire, la maladie de Stargardt
+            et la dystrophie des cônes-bâtonnets.
+          </p>
+          <p>
+            L'évolution est progressive et conduit à une réduction du champ visuel
+            (vision tubulaire) ou à une atteinte centrale. Si aucun traitement curatif
+            général n'existe à ce jour, des thérapies géniques ciblant certaines mutations
+            sont disponibles ou en cours d'essai clinique pour plusieurs formes.
+          </p>
+          <ul class="editorial-list">
+            <li>Diagnostic par <strong>électrorétinogramme (ERG)</strong> et OCT</li>
+            <li>Bilan génétique pour identifier la <strong>mutation causale</strong></li>
+            <li>Thérapie génique disponible pour <strong>RPE65 (Luxturna)</strong></li>
+            <li>Suivi dans un <strong>centre de référence maladies rares</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 05 — Uveitis -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>05 — Uvéite</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Inflammation intraoculaire</span>
+          <h2>Uvéite<br><em>Inflammation de l'uvée</em></h2>
+          <p>
+            L'uvéite est une inflammation de l'uvée, la tunique vasculaire de l'œil comprenant
+            l'iris, le corps ciliaire et la choroïde. Elle peut être antérieure (iritis),
+            intermédiaire (cyclite) ou postérieure (choroïdite), et constitue une urgence
+            ophtalmologique dès lors qu'elle entraîne une baisse visuelle.
+          </p>
+          <p>
+            Son origine est infectieuse (herpès, toxoplasmose, tuberculose) dans un tiers
+            des cas, auto-immune (sarcoïdose, spondylarthrite, maladie de Crohn) dans un autre
+            tiers, et idiopathique dans le reste. Le bilan étiologique guide le traitement
+            spécifique, toujours associé à une corticothérapie locale ou générale.
+          </p>
+          <ul class="editorial-list">
+            <li>Signes d'alarme : <strong>œil rouge douloureux</strong>, photophobie, myodésopsies</li>
+            <li>Bilan étiologique : <strong>sérologies, immunologie, imagerie</strong></li>
+            <li>Traitement : <strong>corticostéroïdes</strong> ± immunosuppresseurs</li>
+            <li>Risque de complications : <strong>cataracte, hypertonie, œdème maculaire</strong></li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/uveite.jpg" alt="Œil présentant les signes d'une uvéite antérieure (hypopion)" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 06 — Diabetic retinopathy -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>06 — Rétinopathie</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/diabete_oeil.png" alt="Représentation d'une rétinopathie diabétique au fond d'œil" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Complication du diabète</span>
+          <h2>Rétinopathie Diabétique<br><em>Surveiller pour préserver</em></h2>
+          <p>
+            La rétinopathie diabétique est une complication microvasculaire du diabète
+            touchant les capillaires rétiniens. Elle survient chez environ 50 % des diabétiques
+            après 15 ans d'évolution de la maladie, et constitue la première cause de cécité
+            évitable chez l'adulte en âge de travailler.
+          </p>
+          <p>
+            L'évolution est silencieuse : microanévrysmes, hémorragies et exsudats précèdent
+            l'œdème maculaire ou la rétinopathie proliférante, stades qui peuvent compromettre
+            définitivement la vision. Le contrôle glycémique strict reste le pilier de la
+            prévention, associé à un suivi ophtalmologique annuel.
+          </p>
+          <ul class="editorial-list">
+            <li>Dépistage annuel obligatoire pour tout <strong>patient diabétique</strong></li>
+            <li>Traitement de l'<strong>œdème maculaire</strong> : injections anti-VEGF</li>
+            <li>Photocoagulation laser pour <strong>rétinopathie proliférante</strong></li>
+            <li>Corrélation étroite avec l'<strong>équilibre glycémique (HbA1c)</strong></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CTA block -->
+    <section class="page-cta" aria-label="Prendre rendez-vous">
+      <div class="page-cta-inner">
+        <h2>Un symptôme vous inquiète ?</h2>
+        <p>Ne différez pas. La plupart des pathologies oculaires se traitent d'autant mieux qu'elles sont dépistées tôt. Prenez rendez-vous sans attendre.</p>
+        <div class="page-cta-buttons">
+          <a href="tel:0139139191" class="btn-cta-phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 12a19.79 19.79 0 01-3.07-8.67A2 2 0 012.88 2h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            Appeler le 01.39.13.91.91
+          </a>
+          <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?telehealth=false&specialityId=4&placeId=practice-7892&pid=practice-7892&speciality_ids%5B%5D=4&source=deep_link" class="btn-cta-rdv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            Prendre rendez-vous
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 <span>Ophtao — Dr Mégret & Associés</span>  •  60 rue Hoche, 78800 Houilles  •  Cabinet conventionné secteur 1</p>
+    <p style="margin-top:6px">Mentions légales  •  Politique de confidentialité  •  Site réalisé par le cabinet</p>
+  </footer>
+
+
+  <!-- Global UI interactions -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>

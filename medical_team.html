@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'équipe médicale — Ophtao</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Site stylesheets -->
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/editorial.css" />
+  <link rel="stylesheet" href="assets/css/team.css" />
+
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="top-bar">
+    <strong>Cabinet conventionné secteur 1</strong>
+     —  Assurance maladie obligatoire acceptée  —  Tiers payant pratiqué
+  </div>
+
+  <!-- Primary header & navigation -->
+  <header>
+    <div class="header-inner">
+
+      <a href="index.html" class="logo" aria-label="Ophtao – Accueil">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 16C3 16 8.5 7 16 7C23.5 7 29 16 29 16C29 16 23.5 25 16 25C8.5 25 3 16 3 16Z"
+                  stroke="white" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+            <circle cx="16" cy="16" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+            <circle cx="17.5" cy="14.5" r="1.2" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="brand">Ophtao</div>
+          <div class="tagline">Dr Mégret & Associés</div>
+        </div>
+      </a>
+
+      <nav id="main-nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html">Page d'accueil</a>
+        <a href="index.html#infos-pratiques">Le cabinet</a>
+        <a href="medical_team.html" class="active">L'équipe médicale</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-more" onclick="return false;">Plus <span class="chevron"></span></a>
+          <div class="dropdown-menu">
+            <a href="technical-equipment.html">Plateau technique</a>
+            <a href="consultation.html">Consultation Ophtalmologique</a>
+            <a href="pathologies.html">Pathologies Oculaires Générales</a>
+            <a href="corrections.html">Correction des défauts visuels</a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page hero -->
+    <section class="page-hero" aria-label="Introduction équipe médicale">
+      <div class="page-hero-inner">
+        <span class="page-hero-label">Le cabinet</span>
+        <h1><em>L'équipe Médicale</em></h1>
+        <div class="page-hero-rule" aria-hidden="true"></div>
+        <p>
+          Le cabinet Ophtao réunit des chirurgiens ophtalmologues, des orthoptistes et
+          une équipe administrative engagés autour d'une ambition commune : vous offrir
+          des soins visuels d'excellence dans un environnement bienveillant et de confiance.
+          Chaque professionnel apporte une expertise complémentaire au service de votre santé oculaire.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section: Ophthalmologic surgeons -->
+    <section class="team-section" aria-label="Chirurgiens ophtalmologues">
+      <div class="team-section-header">
+        <div class="team-section-label">
+          <span class="team-section-number" aria-hidden="true"></span>
+          <h2>Chirurgiens<br><em>Ophtalmologues</em></h2>
+        </div>
+        <p class="team-section-desc">
+          Médecins spécialistes diplômés des facultés de médecine françaises et internationales,
+          habilités à la prescription, aux actes diagnostiques et aux interventions chirurgicales.
+        </p>
+      </div>
+
+      <div class="team-grid team-grid--surgeons">
+
+        <article class="team-card" aria-label="Dr. Olivier Mégret">
+          <div class="team-card-avatar team-card-avatar--surgeon" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Dr. Olivier Mégret"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Dr. Olivier Mégret</h3>
+              <p class="team-card-title">Chirurgien Ophtalmologue</p>
+              <div class="team-card-rule" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list" aria-label="Spécialités">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card" aria-label="Dr. Fazila Ghernaouti">
+          <div class="team-card-avatar team-card-avatar--surgeon" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Dr. Fazila Ghernaouti"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Dr. Fazila Ghernaouti</h3>
+              <p class="team-card-title">Chirurgien Ophtalmologue</p>
+              <div class="team-card-rule" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card" aria-label="Dr. Jean-Charles Hoegy">
+          <div class="team-card-avatar team-card-avatar--surgeon" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Dr. Jean-Charles Hoegy"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Dr. Jean-Charles Hoegy</h3>
+              <p class="team-card-title">Chirurgien Ophtalmologue</p>
+              <div class="team-card-rule" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card" aria-label="Dr. Éléna Neag">
+          <div class="team-card-avatar team-card-avatar--surgeon" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Dr. Éléna Neag"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Dr. Éléna Neag</h3>
+              <p class="team-card-title">Chirurgien Ophtalmologue</p>
+              <div class="team-card-rule" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section: Orthoptists -->
+    <section class="team-section team-section--alt" aria-label="Orthoptistes">
+      <div class="team-section-header">
+        <div class="team-section-label">
+          <span class="team-section-number" aria-hidden="true"></span>
+          <h2>Les<br><em>Orthoptistes</em></h2>
+        </div>
+        <p class="team-section-desc">
+          Professionnels paramédicaux spécialisés en rééducation visuelle, imagerie et
+          explorations fonctionnelles, les orthoptistes sont partenaires essentiels
+          du parcours de soin ophtalmologique au quotidien.
+        </p>
+      </div>
+
+      <div class="team-grid team-grid--ortho">
+
+        <article class="team-card team-card--ortho" aria-label="Mme. Nathalie Thay">
+          <div class="team-card-avatar team-card-avatar--ortho" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Mme. Nathalie Thay"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Mme. Nathalie Thay</h3>
+              <p class="team-card-title team-card-title--ortho">Orthoptiste</p>
+              <div class="team-card-rule team-card-rule--ortho" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card team-card--ortho" aria-label="M. Pierre Henri Feret">
+          <div class="team-card-avatar team-card-avatar--ortho" aria-hidden="true">
+            <img
+              src="assets/images%20teams/pierre_henri_feret.png"
+              alt="Photo de M. Pierre Henri Feret"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">M. Pierre Henri Feret</h3>
+              <p class="team-card-title team-card-title--ortho">Orthoptiste</p>
+              <div class="team-card-rule team-card-rule--ortho" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="team-card team-card--ortho" aria-label="M. Raphaël Pascal">
+          <div class="team-card-avatar team-card-avatar--ortho" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de M. Raphaël Pascal"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">M. Raphaël Pascal</h3>
+              <p class="team-card-title team-card-title--ortho">Optométriste</p>
+              <div class="team-card-rule team-card-rule--ortho" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content">
+              <ul class="team-diploma-list">
+                <li>Spécialité 1</li>
+                <li>Spécialité 2</li>
+                <li>Spécialité 3</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section: Administrative staff -->
+    <section class="team-section" aria-label="Équipe administrative">
+      <div class="team-section-header">
+        <div class="team-section-label">
+          <span class="team-section-number" aria-hidden="true"></span>
+          <h2>L'Équipe<br><em>Administrative</em></h2>
+        </div>
+        <p class="team-section-desc">
+          Premier contact avec le cabinet, notre équipe de secrétariat vous accueille,
+          vous oriente et facilite chaque étape de votre parcours de soin avec disponibilité
+          et professionnalisme.
+        </p>
+      </div>
+
+      <div class="team-grid team-grid--admin">
+
+        <article class="team-card team-card--admin" aria-label="Mme. Carole Saudemont">
+          <div class="team-card-avatar team-card-avatar--admin" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Mme. Carole Saudemont"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Mme. Carole Saudemont</h3>
+              <p class="team-card-title team-card-title--admin">Secrétaire médicale</p>
+              <div class="team-card-rule team-card-rule--admin" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content"></div>
+          </div>
+        </article>
+
+        <article class="team-card team-card--admin" aria-label="Mme. Nadege Genève">
+          <div class="team-card-avatar team-card-avatar--admin" aria-hidden="true">
+            <img
+              src="assets/images%20teams/Dr.png"
+              alt="Photo de Mme. Nadege Genève"
+              style="width: 140px; height: 140px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);"
+            />
+          </div>
+          <div class="team-card-body">
+            <div class="team-card-meta">
+              <h3 class="team-card-name">Mme. Nadege Genève</h3>
+              <p class="team-card-title team-card-title--admin">Secrétaire médicale</p>
+              <div class="team-card-rule team-card-rule--admin" aria-hidden="true"></div>
+            </div>
+            <div class="team-card-content"></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      © 2025 <span>Ophtao — Dr Mégret & Associés</span>  •
+      60 rue Hoche, 78800 Houilles  •
+      Cabinet conventionné secteur 1
+    </p>
+    <p style="margin-top: 6px;">
+      Mentions légales  •  Politique de confidentialité  •
+      Site réalisé par le cabinet
+    </p>
+  </footer>
+
+
+  <!-- Global UI interactions -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>

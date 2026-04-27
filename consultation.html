@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consultation Ophtalmologique — Ophtao</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Site stylesheets -->
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/editorial.css" />
+
+</head>
+<body>
+
+  <!-- Regulatory top bar -->
+  <div class="top-bar">
+    <strong>Cabinet conventionné secteur 1</strong>
+     —  Assurance maladie obligatoire acceptée  —  Tiers payant pratiqué
+  </div>
+
+  <!-- Sticky header with dropdown nav -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Ophtao – Accueil">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 16C3 16 8.5 7 16 7C23.5 7 29 16 29 16C29 16 23.5 25 16 25C8.5 25 3 16 3 16Z" stroke="white" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+            <circle cx="16" cy="16" r="4.5" stroke="white" stroke-width="1.8" fill="none"/>
+            <circle cx="17.5" cy="14.5" r="1.2" fill="white"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="brand">Ophtao</div>
+          <div class="tagline">Dr Mégret & Associés</div>
+        </div>
+      </a>
+
+      <nav id="main-nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html">Page d'accueil</a>
+        <a href="index.html#infos-pratiques">Le cabinet</a>
+        <a href="medical_team.html">L'équipe médicale</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-more active" onclick="return false;">Plus <span class="chevron"></span></a>
+          <div class="dropdown-menu">
+            <a href="technical-equipment.html">Plateau technique</a>
+            <a href="consultation.html">Consultation Ophtalmologique</a>
+            <a href="pathologies.html">Pathologies Oculaires Générales</a>
+            <a href="corrections.html">Correction des défauts visuels</a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Page banner -->
+    <section class="page-hero" aria-label="Introduction">
+      <div class="page-hero-inner">
+        <span class="page-hero-label">Soins & Suivis</span>
+        <h1><em>Nos Consultations</em></h1>
+        <div class="page-hero-rule" aria-hidden="true"></div>
+        <p>
+          Du bilan visuel annuel à la prise en charge urgente, le cabinet Ophtao assure
+          un suivi personnalisé à chaque étape de votre vie. Nos ophtalmologistes
+          sont formés aux spécificités de chaque patient — enfant, adulte, diabétique ou
+          porteur de lentilles.
+        </p>
+      </div>
+    </section>
+
+    <!-- Alternating editorial blocks -->
+    <section class="editorial-section" aria-label="Types de consultations">
+
+      <!-- 01 — Standard eye exam -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>01 — Bilan visuel</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Consultation standard</span>
+          <h2>Bilan Ophtalmologique<br><em>Complet et personnalisé</em></h2>
+          <p>
+            Le bilan ophtalmologique de référence explore l'ensemble de la fonction visuelle :
+            mesure de l'acuité avec et sans correction, réfraction objective et subjective,
+            examen à la lampe à fente, tonus oculaire, fond d'œil dilaté et analyse des annexes.
+          </p>
+          <p>
+            Ce bilan complet permet de renouveler ou d'adapter une ordonnance de lunettes ou
+            de lentilles, mais aussi de dépister des pathologies asymptomatiques comme le glaucome
+            ou la DMLA débutante. Une consultation préventive annuelle est recommandée
+            après 40 ans.
+          </p>
+          <ul class="editorial-list">
+            <li>Mesure de l'<strong>acuité visuelle</strong> de loin et de près</li>
+            <li>Réfraction et prescription de la <strong>correction optique</strong></li>
+            <li>Tonométrie (mesure de la <strong>pression intraoculaire</strong>)</li>
+            <li>Examen du fond d'œil avec <strong>dilatation pupillaire</strong></li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/bilan.png" alt="Consultation pour bilan visuel complet" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 02 — Pediatric ophthalmology -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>02 — Pédiatrie</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/pediatrie.png" alt="Examen ophtalmologique pédiatrique" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Ophtalmologie pédiatrique</span>
+          <h2>Consultation Pédiatrique<br><em>Dépistage précoce</em></h2>
+          <p>
+            Le développement visuel de l'enfant s'achève vers l'âge de 7–8 ans. Tout trouble
+            non corrigé avant cette période — amblyopie, strabisme, myopie forte — risque
+            de laisser des séquelles permanentes sur l'acuité visuelle définitive.
+          </p>
+          <p>
+            Notre cabinet est équipé pour évaluer la vision des tout-petits dès les premiers mois,
+            en utilisant des tests adaptés à l'âge et à la coopération de chaque enfant.
+            Un dépistage réalisé tôt permet souvent une prise en charge simple et efficace.
+          </p>
+          <ul class="editorial-list">
+            <li>Dépistage de l'<strong>amblyopie</strong> (œil paresseux)</li>
+            <li>Bilan et traitement du <strong>strabisme</strong></li>
+            <li>Suivi de la <strong>myopie évolutive</strong> (orthokératologie)</li>
+            <li>Première consultation recommandée dès <strong>9–12 mois</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 03 — Diabetic patient follow-up -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>03 — Diabète</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Suivi spécialisé</span>
+          <h2>Suivi Ophtalmologique<br><em>du Patient Diabétique</em></h2>
+          <p>
+            Le diabète est la première cause de cécité évitable chez l'adulte en âge de travailler.
+            La rétinopathie diabétique, complication microvasculaire silencieuse, peut évoluer
+            pendant des années sans symptômes avant d'entraîner une baisse visuelle irréversible.
+          </p>
+          <p>
+            Un suivi ophtalmologique annuel est indispensable pour tout patient diabétique,
+            quel que soit le type de diabète ou l'équilibre glycémique. Le dépistage repose
+            sur le fond d'œil dilaté et l'Angio-OCT, permettant de détecter et traiter
+            précocement toute lésion rétinienne.
+          </p>
+          <ul class="editorial-list">
+            <li>Fond d'œil annuel obligatoire pour tout <strong>patient diabétique</strong></li>
+            <li>Détection des <strong>néovaisseaux et œdèmes maculaires</strong></li>
+            <li>Orientation vers le laser ou les <strong>injections intravitréennes</strong></li>
+            <li>Coordination avec le <strong>diabétologue</strong> traitant</li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/diabetique.jpg" alt="Examen du fond d'œil pour patient diabétique" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+      <!-- 04 — Contact lens fitting -->
+      <div class="editorial-block reverse">
+        <div class="editorial-number" aria-hidden="true"><span>04 — Lentilles</span></div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/lentille.png" alt="Adaptation de lentilles de contact" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Adaptation optique</span>
+          <h2>Adaptation Lentilles<br><em>Confort et sécurité cornéenne</em></h2>
+          <p>
+            L'adaptation de lentilles de contact ne se limite pas à la mesure de la réfraction.
+            Elle comprend une évaluation complète de la surface oculaire — qualité du film
+            lacrymal, topographie cornéenne, diamètre et état des annexes — afin de sélectionner
+            le type et la géométrie de lentille les mieux tolérés.
+          </p>
+          <p>
+            Pour les cornées irrégulières (kératocône, cicatrices, chirurgies réfractives),
+            des lentilles rigides sur-mesure ou sclérales peuvent être prescrites,
+            offrant une qualité visuelle irréalisable avec les lunettes conventionnelles.
+          </p>
+          <ul class="editorial-list">
+            <li>Lentilles souples journalières, mensuelles ou <strong>multifocales</strong></li>
+            <li>Lentilles rigides perméables et <strong>sclérales sur-mesure</strong></li>
+            <li><strong>Orthokératologie</strong> (port nocturne anti-myopie)</li>
+            <li>Éducation au port et suivi de la <strong>santé cornéenne</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 05 — Ophthalmological emergencies -->
+      <div class="editorial-block">
+        <div class="editorial-number" aria-hidden="true"><span>05 — Urgences</span></div>
+        <div class="editorial-text">
+          <span class="editorial-badge">Prise en charge rapide</span>
+          <h2>Urgences Ophtalmologiques<br><em>Réactivité et expertise</em></h2>
+          <p>
+            Certaines urgences oculaires nécessitent une prise en charge dans les heures qui
+            suivent pour préserver la vision. Le cabinet Ophtao réserve des créneaux d'urgence
+            chaque jour pour accueillir les patients présentant des symptômes à traiter
+            rapidement.
+          </p>
+          <p>
+            En dehors des horaires d'ouverture, notre équipe vous orientera par message vers
+            la structure d'urgence ophtalmologique la plus adaptée à votre situation.
+            N'attendez jamais face à une baisse visuelle brutale ou un traumatisme oculaire.
+          </p>
+          <ul class="editorial-list">
+            <li><strong>Œil rouge</strong> douloureux ou avec sécrétions</li>
+            <li><strong>Baisse visuelle brutale</strong> uni ou bilatérale</li>
+            <li><strong>Corps étranger</strong> ou traumatisme oculaire</li>
+            <li>Photopsies, myodésopsies ou <strong>voile dans la vision</strong> (décollement de rétine présumé)</li>
+          </ul>
+        </div>
+        <div class="editorial-visual" aria-hidden="true" style="padding: 0;">
+          <img src="assets/images/urgrences.jpg" alt="Prise en charge d'une urgence ophtalmologique" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Call to action -->
+    <section class="page-cta" aria-label="Prendre rendez-vous">
+      <div class="page-cta-inner">
+        <h2>Consultation ou urgence ?</h2>
+        <p>Contactez-nous directement ou prenez rendez-vous en ligne. Des créneaux d'urgence sont disponibles chaque jour.</p>
+        <div class="page-cta-buttons">
+          <a href="tel:0139139191" class="btn-cta-phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 12a19.79 19.79 0 01-3.07-8.67A2 2 0 012.88 2h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            Appeler le 01.39.13.91.91
+          </a>
+          <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?telehealth=false&specialityId=4&placeId=practice-7892&pid=practice-7892&speciality_ids%5B%5D=4&source=deep_link" class="btn-cta-rdv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            Prendre rendez-vous
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 <span>Ophtao — Dr Mégret & Associés</span>  •  60 rue Hoche, 78800 Houilles  •  Cabinet conventionné secteur 1</p>
+    <p style="margin-top: 6px;">Mentions légales  •  Politique de confidentialité  •  Site réalisé par le cabinet</p>
+  </footer>
+
+  <!-- Global UI interactions -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
